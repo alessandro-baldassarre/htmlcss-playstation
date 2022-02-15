@@ -29,6 +29,12 @@ body{
     text-decoration: none;
 }
 
+.trademark::after{
+    content: "TM";
+    font-size: .4rem;
+    vertical-align: text-top;
+}
+
 /* HEADER */
 
 header{
