@@ -35,6 +35,12 @@ body{
     vertical-align: text-top;
 }
 
+.registered-trademark::after{
+    content: "\00AE";
+    font-size: 1rem;
+    vertical-align: text-top;
+}
+
 /* JUMBOTRON- */
 
 .jumbotron .hero-banner{
@@ -72,4 +78,3 @@ header{
     width: 50%;
 }
 
-/* NEW RELEASES */
