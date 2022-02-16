@@ -21,10 +21,6 @@ body{
     background-color: black;
 }
 
-.my-text-black{
-    color: black;
-}
-
 .my-nav-link{
     text-decoration: none;
 }
@@ -45,7 +41,7 @@ body{
 
 .jumbotron .hero-banner{
     background-size: cover;
-    background-position: center;
+    background-position-x: center;
 }
 
 
