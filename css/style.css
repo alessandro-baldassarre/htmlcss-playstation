@@ -21,6 +21,10 @@ body{
     background-color: black;
 }
 
+.my-bg-light-grey{
+    background-color: #bfbcba;
+}
+
 .my-nav-link{
     text-decoration: none;
 }
@@ -37,12 +41,16 @@ body{
     vertical-align: text-top;
 }
 
-/* JUMBOTRON- */
-
-.jumbotron .hero-banner{
+.hero-banner{
     background-size: cover;
     background-position-x: center;
 }
+
+.logo-small{
+    height: 50px;
+}
+
+
 
 
 
@@ -54,23 +62,26 @@ header{
 
 /* MAIN */
 
-/* JUMBOTRON-TOP-PAGE */
+/* JUMBOTRON*/
 
-#jumbotron-top-page .hero-banner{
+#jumbotron .hero-banner{
     background-image: url("../img/jumbo-bg.png");
 }
 
-#jumbotron-top-page .hero-banner img{
+#jumbotron .hero-banner img{
     width: 60%;
 }
 
-/* JUMBOTRON-CENTER-PAGE */
+/* GAME-BANNER */
 
-#jumbotron-center-page .hero-banner{
+#game-banner .hero-banner{
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
 }
 
-#jumbotron-center-page .hero-banner img{
+#game-banner .hero-banner img{
     width: 50%;
 }
 
+/* PLAYSTATION-PLUS BANNER */
+
+#playstation-plus-banner 
