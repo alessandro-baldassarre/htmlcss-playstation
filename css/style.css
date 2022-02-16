@@ -30,6 +30,10 @@ body{
 }
 
 .my-bg-blue{
+    background-color: #01439d;
+}
+
+.my-bg-dark-blue{
     background-color: #171c3a;
 }
 
@@ -56,6 +60,10 @@ body{
 
 .logo-small{
     height: 50px;
+}
+
+.logo-extra-small{
+    height: 15px;
 }
 
 
