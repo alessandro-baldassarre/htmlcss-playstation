@@ -21,8 +21,12 @@ body{
     background-color: black;
 }
 
-.my-bg-light-grey{
+.my-bg-grey{
     background-color: #bfbcba;
+}
+
+.my-bg-light-grey{
+    background-color: #d8dbdc;
 }
 
 .my-nav-link{
