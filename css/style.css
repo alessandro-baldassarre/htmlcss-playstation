@@ -58,17 +58,17 @@ body{
     background-position-x: center;
 }
 
-.logo-small{
-    height: 50px;
+.logo{
+    width: 90px;
 }
 
+.logo-small{
+    width: 75px;
+}
+    
 .logo-extra-small{
     height: 15px;
 }
-
-
-
-
 
 /* HEADER */
 
@@ -98,6 +98,25 @@ header{
     width: 50%;
 }
 
-/* PLAYSTATION-PLUS BANNER */
+/* PLAYSTATION-PLUS-BANNER */
 
-#playstation-plus-banner 
+#playstation-plus-banner .logo{
+    width: 70%;
+}
+
+/* PLAYSTATION-NOW-BANNER */
+
+#playstation-now-banner .logo{
+    width: 70%;
+}
+
+/* FOOTER */
+
+section#footer-bottom ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+section#footer-bottom ul a{
+    text-decoration: none;
+}
