@@ -111,6 +111,17 @@ nav li:hover .my-inactive{
     border: 3px solid #0d6efd;
 }
 
+/* CONSOLE PREVIEW */
+
+#console-preview .border-active{
+    border-bottom: 3px solid white;
+}
+
+#console-preview .border-active:hover{
+    cursor: pointer;
+    border-bottom: 3px solid #0d6efd;
+}
+
 
 /* GAME-BANNER */
 
