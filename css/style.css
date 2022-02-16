@@ -130,11 +130,11 @@ nav li:hover .my-inactive{
 
 /* FOOTER */
 
-section#footer-bottom ul{
+div#footer-bottom ul{
     list-style-type: none;
     padding: 0;
 }
 
-section#footer-bottom ul a{
+div#footer-bottom ul a{
     text-decoration: none;
 }
