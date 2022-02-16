@@ -10,11 +10,7 @@ body{
 }
 
 .my-b-active{
-    border: 3px solid #0072ce;
-}
-
-.my-b-inactive{
-    border: none;
+    
 }
 
 .my-bg-black{
@@ -105,6 +101,16 @@ nav li:hover .my-inactive{
 #jumbotron .hero-banner img{
     width: 60%;
 }
+
+#jumbotron .listing-img img{
+    border: 3px solid white;
+}
+
+#jumbotron .listing-img img:hover {
+    cursor: pointer;
+    border: 3px solid #0d6efd;
+}
+
 
 /* GAME-BANNER */
 
