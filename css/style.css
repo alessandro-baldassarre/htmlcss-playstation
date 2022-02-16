@@ -29,6 +29,10 @@ body{
     background-color: #d8dbdc;
 }
 
+.my-bg-blue{
+    background-color: #171c3a;
+}
+
 .my-nav-link{
     text-decoration: none;
 }
