@@ -65,7 +65,7 @@ body{
 .logo-small{
     width: 75px;
 }
-    
+
 .logo-extra-small{
     height: 15px;
 }
@@ -75,6 +75,24 @@ body{
 header{
     font-family: helvetica;
 }
+
+.my-active{
+    display: none;
+}
+
+nav li:hover{
+    cursor: pointer;
+
+}
+
+nav li:hover .my-active{
+    display: inline-block;
+}
+
+nav li:hover .my-inactive{
+    display: none;
+}
+
 
 /* MAIN */
 
