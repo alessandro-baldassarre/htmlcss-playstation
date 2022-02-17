@@ -37,6 +37,10 @@ body{
     background-color: #171c3a;
 }
 
+.my-box-shadow{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .my-nav-link{
     text-decoration: none;
 }
@@ -93,6 +97,10 @@ nav li:hover .my-inactive{
     display: none;
 }
 
+header button:hover{
+    opacity: .7;
+}
+
 
 /* MAIN */
 
@@ -107,7 +115,7 @@ nav li:hover .my-inactive{
 }
 
 #jumbotron .listing-img .my-border-inactive{
-    transition: bottom 1s ease-in-out;
+    transition: all .3s ease-in-out;
     opacity: .6;
 }
 
@@ -117,11 +125,10 @@ nav li:hover .my-inactive{
     bottom: 8px;
     opacity: 1;
     border: none;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #jumbotron button:hover{
-    box-shadow: 0 0 3px 4px red;
+    box-shadow: 0 0 0 2px black, 0 0 0 4px red;
 }
 
 /* CONSOLE PREVIEW */
@@ -131,15 +138,19 @@ nav li:hover .my-inactive{
 
 #console-preview .my-border-b-inactive{
     border-bottom: 3px solid white;
+    opacity: .6;
 }
 
 #console-preview .my-border-b-inactive:hover{
     cursor: pointer;
     border-bottom: 3px solid #0d6efd;
+    opacity: 1;
+    transform:scaleX(0.98);
+    
 }
 
 #console-preview button:hover{
-    box-shadow: 0 0 3px 4px #0d6efd;;
+    box-shadow: 0 0 0 2px white, 0 0 0 4px #0d6efd;
 }
 
 /* GAME-BANNER */
@@ -152,10 +163,51 @@ nav li:hover .my-inactive{
     width: 50%;
 }
 
+#game-banner button:hover{
+    box-shadow: 0 0 0 2px black, 0 0 0 4px red;
+}
+
+/* NEW REALEASES */
+
+#new-releases .listing-img img{
+    transition: transform .3s ease-in-out;
+}
+
+#new-releases .listing-img img:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+
+}
+
+/* EXPLORE PS4 */
+
+#explore-ps4 img:hover{
+    cursor: pointer;
+}
+
+#explore-ps4 button:hover{
+    box-shadow: 0 0 0 2px white, 0 0 0 4px #0d6efd;
+}
+
 /* PLAYSTATION-PLUS-BANNER */
 
 #playstation-plus-banner .logo{
     width: 70%;
+}
+
+#playstation-plus-banner button:hover{
+    box-shadow: 0 0 0 2px #bfbcba, 0 0 0 4px #d8dbdc;
+}
+
+/* DISCOUNTS */
+
+#discounts img{
+    transition: transform .3s ease-in-out;
+}
+
+#discounts img:hover{
+    cursor: pointer;
+    transform: scale(1.02);
 }
 
 /* PLAYSTATION-NOW-BANNER */
@@ -164,7 +216,19 @@ nav li:hover .my-inactive{
     width: 70%;
 }
 
+#playstation-now-banner button:hover{
+    box-shadow: 0 0 0 2px #171c3a, 0 0 0 4px #d8dbdc;
+}
+
 /* FOOTER */
+
+#social img{
+    transition: transform .3s ease-in-out;
+}
+
+#social img:hover{
+    transform: scale(1.02);
+}
 
 div#footer-bottom ul{
     list-style-type: none;
