@@ -9,8 +9,12 @@ body{
     border-radius: 25px;
 }
 
-.my-b-active{
-    
+.my-border-active{
+    border: 3px solid #0d6efd;
+}
+
+.my-border-inactive{
+    border: 3px solid white;
 }
 
 .my-bg-black{
@@ -102,26 +106,41 @@ nav li:hover .my-inactive{
     width: 60%;
 }
 
-#jumbotron .listing-img img{
-    border: 3px solid white;
+#jumbotron .listing-img .my-border-inactive{
+    transition: bottom 1s ease-in-out;
+    opacity: .6;
 }
 
-#jumbotron .listing-img img:hover {
+
+#jumbotron .listing-img .my-border-inactive:hover{
     cursor: pointer;
-    border: 3px solid #0d6efd;
+    bottom: 8px;
+    opacity: 1;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#jumbotron button:hover{
+    box-shadow: 0 0 3px 4px red;
 }
 
 /* CONSOLE PREVIEW */
+#console-preview .my-border-b-active{
+    border-bottom: 3px solid #0d6efd;
+}
 
-#console-preview .border-active{
+#console-preview .my-border-b-inactive{
     border-bottom: 3px solid white;
 }
 
-#console-preview .border-active:hover{
+#console-preview .my-border-b-inactive:hover{
     cursor: pointer;
     border-bottom: 3px solid #0d6efd;
 }
 
+#console-preview button:hover{
+    box-shadow: 0 0 3px 4px #0d6efd;;
+}
 
 /* GAME-BANNER */
 
